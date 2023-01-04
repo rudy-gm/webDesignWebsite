@@ -9,6 +9,7 @@ import Trainers from './pages/trainers/trainers';
 import Navbar from './components/Navbar';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Footer from './components/Footer';
 
 
 
@@ -25,6 +26,7 @@ const App = () => {
       <Route path='contact' element={<Contact></Contact>}></Route>
       <Route path='*' element={<NotFound></NotFound>}></Route>
     </Routes>
+    <Footer></Footer>
 
 
 </BrowserRouter>
