@@ -1,21 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Image from '../images/main_header.png'
+import Image from "../images/HeaderImage.png";
 
 const Header = () => {
   return (
     <header className="main_header">
       <div className="container main_header-container">
         <div className="main_header-left">
-          <h4>#100DaysOfWorkOut</h4>
-          <h1>Join The Legends of the Fitness World</h1>
+          <h4>Top Web Desingers in Ocoee</h4>
+          <h1>Freedom for your Website</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-            dolorum quisquam impedit nisi alias ipsum, optio iure tempore
-            voluptates quidem repellat incidunt facilis dolores aperiam possimus
-            qui, libero earum deserunt?
+            Illustratum is a company dedicated to building the right website for
+            your business, whether is generating more leads for your business,
+            booking appointments, or having a hassle-free online store. 
           </p>
-          <Link to='/plans' className="btn lg">Get Started</Link>
+          <Link to="/plans" className="btn lg">
+            Get Started
+          </Link>
+          <a href="https://calendly.com/illustratum-web-design/quick-chat" target="_blank" className="btn lg">Schedule a Call!</a>
         </div>
 
         <div className="main_header-right">

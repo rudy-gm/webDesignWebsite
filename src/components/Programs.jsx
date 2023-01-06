@@ -9,7 +9,7 @@ const Programs = () => {
   return (
     <section className='programs'>
         <div className="container progrmas_container">
-            <SectionHead icon={<MdWebStories></MdWebStories>} title="Programs"></SectionHead>
+            <SectionHead icon={<MdWebStories></MdWebStories>} title="Solutions For All Your Web Needs"></SectionHead>
         <div className='programs_wrapper'>
             {
                 programs.map(({icon,title,info,path,id})=>{

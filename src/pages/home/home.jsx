@@ -6,6 +6,7 @@ import Values from '../../components/Values';
 import FAQs from '../../components/FAQs';
 import Testimonials from '../../components/Testimonials';
 import Footer from '../../components/Footer';
+import MenuBar from '../../components/MenuBar';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Values></Values>
       <FAQs></FAQs>
       <Testimonials></Testimonials>
+      <MenuBar></MenuBar>
       {/* <Footer></Footer> */}
     </>
   )

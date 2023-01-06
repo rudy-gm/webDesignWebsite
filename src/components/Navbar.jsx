@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import Logo from "../images/logo.png";
+import Logo from "../images/IllustratumLogo2.png";
 import { GoThreeBars } from "react-icons/go";
 import {MdClose} from "react-icons/md"
 import { useState } from "react";
@@ -32,6 +32,7 @@ const Navbar = () => {
               </li>
             );
           })}
+          <a className="nav_btn-call" href="https://calendly.com/illustratum-web-design/quick-chat" target="_blank">Let's Talk!</a>
         </ul>
         <button
           className="nav_toggle-btn"

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../images/logo.png";
+import Logo from "../images/IllustratumLogo2.png";
 import { FaLinkedin, FaFacebook } from "react-icons/fa";
 import { AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
 
@@ -77,7 +77,8 @@ const Footer = () => {
       <div className="footer_copyright">
         <small>
           2023 Illustratum LLC &copy; All Rights Reserved <br></br> We did our
-          own website duh
+          own website duh<br></br>
+          <a href="https://storyset.com/illustration/insert-block/bro#0080FFFF&hide=&hide=simple">Web illustrations by Storyset</a>
         </small>
       </div>
     </footer>

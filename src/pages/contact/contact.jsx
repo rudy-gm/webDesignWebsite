@@ -25,21 +25,12 @@ const contact = () => {
             >
               <MdEmail></MdEmail>
             </a>
-            <a
-              href="/facebooklink"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
+            <a href="/facebooklink" target="_blank" rel="noreferrer noopener">
               <BsMessenger></BsMessenger>
             </a>
-            <a
-              href="/wslink"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
+            <a href="/wslink" target="_blank" rel="noreferrer noopener">
               <IoLogoWhatsapp></IoLogoWhatsapp>
             </a>
-
           </div>
         </div>
       </section>

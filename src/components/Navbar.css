@@ -26,7 +26,7 @@ nav{
 }
 
 .logo{
-    width: 7rem;
+    width: 10rem;
     display: block;
 
 }
@@ -58,6 +58,24 @@ nav{
     left: calc(50%-0.6rem);
     transform: rotate(45deg);
     margin-top: 0.9rem;
+}
+
+.nav_btn-call{
+    color: var(--color-gray-100);
+    width: fit-content;
+    margin: 0 auto;
+    background: var(--color-gray-600);
+    transition: var(--transition);
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+    font-size: 1.1rem;
+    border: solid white 2px;
+}
+
+.nav_btn-call:hover{
+    background: var(--color-secondary);
+    /* color: var(--color-gray-600); */
+    color: red;
 }
 
 /* MEDIA QUERIES (medium and small screens) */

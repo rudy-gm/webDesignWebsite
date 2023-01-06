@@ -43,9 +43,14 @@
     position: relative;
 }
 
+.main_header-left .btn.lg{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .main_header-circle{
-    width: 25rem;
-    height: 25rem;
+    width: 36rem;
+    height: 36rem;
     background: linear-gradient(75deg, var(--color-secondary), transparent);
     border-radius: 50%;
     position: absolute;
@@ -84,6 +89,10 @@
 
 .programs_program:hover a{
     background: var(--color-secondary);
+    color: var(--color-gray-600);
+}
+
+.programs_program span{
     color: var(--color-gray-600);
 }
 
@@ -322,6 +331,13 @@ footer{
         height: 16rem;
     }
 
+
+   .main_header-left .btn.lg{
+    font-size: 1rem;
+    padding: 1rem 1rem;
+
+   }
+
     /* PROGRAMS SECTION */
 
     .programs_wrapper{
@@ -377,12 +393,20 @@ footer{
    }
 
    .main_header-image, .main_header-circle{
-    display: none;
+    /* display: none; */
    }
 
    .main_header-container{
     grid-template-columns: 1fr;
    }
+
+   .main_header-left .btn.lg{
+    font-size: 1rem;
+    padding: 1rem 1rem;
+
+   }
+
+
 
    /* PROGRAMS SECTION */
 
